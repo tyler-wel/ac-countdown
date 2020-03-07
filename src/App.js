@@ -13,7 +13,7 @@ function App() {
       return (
         <div className="container">
           <div className="row">
-            <div className="col-sm-3">
+            <div className="col">
               <div>
                 {days}
               </div>
@@ -21,7 +21,7 @@ function App() {
                 日
               </div>
             </div>
-            <div className="col-sm-3">
+            <div className="col">
               <div>
                 {hours}
               </div>
@@ -29,7 +29,7 @@ function App() {
                 時
               </div>
             </div>
-            <div className="col-sm-3">
+            <div className="col">
               <div>
                 {minutes}
               </div>
@@ -37,7 +37,7 @@ function App() {
                 分
               </div>
             </div>
-            <div className="col-sm-3">
+            <div className="col">
               <div>
                 {seconds}
               </div>
@@ -55,9 +55,9 @@ function App() {
     <div className="App">
       <div className="App-Main">
         <div className="App-Header">
-          <span className="Header-Text">
+          <div className="Header-Text">
             Animal Crossing: New Horizons Countdown
-          </span>
+          </div>
         </div>
         <div className="App-Body">
           <Countdown
